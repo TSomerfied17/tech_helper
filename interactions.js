@@ -1,8 +1,8 @@
 const { createMessageAdapter } = require('@slack/interactive-messages')
 const slackSigningSecret = process.env.SLACK_SIGNING_SECRET
 const slackInteractions = createMessageAdapter(slackSigningSecret)
-const frequentlyAskedQuestions = require('./elements/frequentlyAskedQuestions.json')
-const respondToFaqs = require('./respondToFaqs')
+const frequentlyAskedQuestions = require('./elements/frequentlyAskedQuestions.json') /* Saving the .json formatted second select menu in a variable for later use */
+const respondToFaqs = require('./respondToFaqs') /* Saving the final response functionality in a variable so it can be triggered in the if statements below */
 
 module.exports.listenForInteractions = function (app) {
   app.use('/interactions', slackInteractions.requestListener())
@@ -12,13 +12,15 @@ slackInteractions.action({ type: 'select' }, (payload, respond) => {
   return respondToSelectDropdown(payload, respond);
 })
 
-slackInteractions.action({ type: 'select' }, (payload, respond) => {
-  return respondToSelectDropdown(payload, respond);
-})
+/*
+Below we handle the select menu choices and assign variable to link with 
+the correct responses in the corresponding .json files at the top of this page
+*/
 
 function respondToSelectDropdown(payload, respond) {
   const selectedOption = payload.actions[0].selected_options[0].value
 
+  // THE FIRST SELECT MENU
   if (payload.callback_id == 'subjects') {
     switch (selectedOption) {
       case 'Slack':
@@ -77,6 +79,10 @@ function respondToSelectDropdown(payload, respond) {
         break
     }
   }
+
+/* THE SECOND TIER OF SELECT MENUS
+>>> Which menu appears depends on the callback_id assigned in the previous select menu above.
+*/
 
   if (payload.callback_id == 'slack_help') {
     switch (selectedOption) {
@@ -349,13 +355,14 @@ function respondToSelectDropdown(payload, respond) {
   // Return a replacement message
   return { text: 'Processing...' }
 }
-
+// The function triggered by the first select menu choices
+// This displays the next select menu
 function respondWithFaq(text, callbackId, respond, choice) {
   frequentlyAskedQuestions.callback_id = callbackId
   frequentlyAskedQuestions.text = 'What are you trying to do?'
   respond({
     text: text,
-    attachments: [frequentlyAskedQuestions[choice]],
+    attachments: [frequentlyAskedQuestions[choice]], //All different choices are saved in a .json array and then saved at the top in a variable called frequentlyAskedQuestions
     replace_original: true
   })
 }

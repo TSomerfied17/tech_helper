@@ -6,10 +6,12 @@ const gsuiteAnswers = require('./resources/gsuiteAnswers.json')
 const portalAnswers = require('./resources/portalAnswers.json')
 const everbridgeAnswers = require('./resources/everbridgeAnswers.json')
 const hardwareAnswers = require('./resources/hardwareAnswers.json')
-const successCheck = require('./resources/successCheck.json')
+const successCheck = require('./resources/successCheck.json') //Unused at the moment
 
 module.exports.chooseAnswer = function (text, callbackId, respond, choice) {
     
+//Deciphers which choice was given and displays the appropriate response from the .json array
+
   switch (callbackId) {
     case 'slack_help':
       respond({
@@ -68,5 +70,5 @@ module.exports.chooseAnswer = function (text, callbackId, respond, choice) {
       })
       break
     }
-    return { text: 'Processing...' }
+    return { text: 'Processing...' } // Essentially fallback text if one of the User Journeys threads isn't covered off
   }
