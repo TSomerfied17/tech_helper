@@ -1,0 +1,58 @@
+[
+    {
+      "type": "section",
+      "callback_id": "findTask",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Here is a link to Asana Guide - <https://asana.com/guide/help/fundamentals/search|Search and Search Views> :mechanical_arm:"
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "myTasks",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Here is a link to Asana Guide - <https://asana.com/guide/help/fundamentals/my-tasks|My Tasks> :mechanical_arm:"
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "findAssigner",
+      "text": {
+          "type": "mrkdwn",
+          "text": "There is an audit trail just above the comment box on every task. Here is it usually listed which user assigned the task to you. :mechanical_arm:"
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "createMilestone",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Here is a link to Asana Guide - <https://asana.com/guide/help/premium/milestones|Milestones> :mechanical_arm:"
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "createProject",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Here is a link to Asana Guide - <https://asana.com/guide/help/projects/basics|Understanding Projects> :mechanical_arm:"
+      }
+    },
+    {
+        "type": "section",
+        "callback_id": "appAsana",
+        "text": {
+            "type": "mrkdwn",
+            "text": "You can download <https://asana.com/apps/slack|Slack for Asana>. :slack:"
+        }
+    },
+    {
+      "type": "section",
+      "callback_id": "submitTicket",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Here is a link to <https://re-act.org.uk/tech-support|submit a support ticket> :fist:"
+      }
+    }
+  ]

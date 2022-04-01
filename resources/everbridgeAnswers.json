@@ -1,0 +1,18 @@
+[
+    {
+      "type": "section",
+      "callback_id": "includeContact",
+      "text": {
+          "type": "mrkdwn",
+          "text": "1. Check that the contact in Everbridge has an address.\n\n2. Check that the longitude and latitude values have been correctly generated.\n\n3. Check that your radius includes the contact’s address – don’t forget that Map By Location doesn’t work by Region, but by miles radius from a specified point, ignoring RE:ACT specified regional boundaries.\n\n4. Contact an administrator."
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "submitTicket",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Here is a link to <https://re-act.org.uk/tech-support|submit a support ticket> :fist:"
+      }
+    }
+  ]

@@ -1,0 +1,42 @@
+[
+    {
+      "type": "section",
+      "callback_id": "lockedAccount",
+      "text": {
+          "type": "mrkdwn",
+          "text": "You will need to contact a GSuite Administrator. Here is a link to <https://re-act.org.uk/tech-support|submit a support ticket> :e-mail:"
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "groupNotifications",
+      "text": {
+          "type": "mrkdwn",
+          "text": "*Manage your subscriptions* :e-mail:\n\n1. Sign in to Google Groups.\n2.Click the name of a group.\n3. On the left, click My membership settings.\n4. For Subscription, choose an option:\n\n>*Each email* = Messages are sent individually as they’re posted to the group.\n> *Digest* = Up to 25 complete messages are combined into single emails and sent daily.\n>*Abridged* = Summaries of up to 150 messages are combined into single emails and sent daily.\n>*No email* = Messages from the group are not sent.\n\n_To receive abridged summaries or digests of a group’s messages, you must turn on conversation history for the group._\n\n5. Click Save changes."
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "groupInbox",
+      "text": {
+          "type": "mrkdwn",
+          "text": "1. Sign into your Google account.\n\n2. Go to the app launcher :applauncher: in the top-right of your browser window and find the Groups app.\n\n3. All of the Groups that you are a member of will be listed here. To enter one of these groups, just click on the name of the group. :e-mail:"
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "emailSignature",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Here is a link to <https://re-act.box.com/shared/static/0vaeftl188pmxm2ctzemo3kggopv82uf.docx|How to install your RE:ACT e-mail signature> :e-mail:"
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "submitTicket",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Here is a link to <https://re-act.org.uk/tech-support|submit a support ticket> :fist:"
+      }
+    }
+  ]

@@ -1,0 +1,50 @@
+[
+    {
+      "type": "section",
+      "callback_id": "boxTools",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Here is a link to Box Support's troubleshooting page on this issue - <https://support.box.com/hc/en-us/articles/360044195273-Continuous-Prompt-to-Install-Box-Tools|Continuous Prompt to Install Box Tools> :wrench:"
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "microsoftOnline",
+      "text": {
+          "type": "mrkdwn",
+          "text": "1. Please ensure that you are selecting *Microsoft [Application]* and *not* ~Microsoft [Application] Online~. \n\n 2. You could also check that the person sharing a file/folder with you had given you the correct permissions to view/edit/download/upload. See <https://support.box.com/hc/en-us/categories/360003200713-Collaborating| Collaborating> in Box :wrench:"
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "findFile",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Here is a link to Box Support's troubleshooting page on this issue - <https://support.box.com/hc/en-us/articles/360043696314-Search-for-Files-Folders-and-Content|Searching for files and folders> :wrench:"
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "editFile",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Check that the person sharing a file/folder with you had given you the correct permissions to view/edit/download/upload. See <https://support.box.com/hc/en-us/categories/360003200713-Collaborating| Collaborating> in Box :wrench:"
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "accountMerge",
+      "text": {
+          "type": "mrkdwn",
+          "text": "You can merge your box accounts following these instructions:\n\n1. Login to your preferred Box account\n\n2. Go to your *Account Settings*.\n\n3. In the *Login and Email Addresses* section click the *Add Email* button and enter your other Box account email\n\n4. This should merge permissions for both accounts.\n _If you encounter an error I would suggest contacting Box support_ :wrench:"
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "submitTicket",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Here is a link to <https://re-act.org.uk/tech-support|submit a support ticket> :fist:"
+      }
+    }
+  ]

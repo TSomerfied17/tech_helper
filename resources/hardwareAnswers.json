@@ -1,0 +1,18 @@
+[
+    {
+      "type": "section",
+      "callback_id": "brokenLostStolen",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Here is a link to <https://re-act.org.uk/tech-support|submit a support ticket> :fist:"
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "submitTicket",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Here is a link to <https://re-act.org.uk/tech-support|submit a support ticket> :fist:"
+      }
+    }
+  ]

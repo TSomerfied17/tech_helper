@@ -1,0 +1,26 @@
+[
+    {
+      "type": "section",
+      "callback_id": "loginAccount",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Here is a link to <https://re-act.org.uk/tech-support|submit a support ticket> :fist:"
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "onlineCourse",
+      "text": {
+          "type": "mrkdwn",
+          "text": "1. Try closing and re-opening your browser window.\n\n2. Check that you are not using a VPN (Virtual Private Network).\n\n3. Check that you have a stable internet connection.\n\nIf none of these things resolves your issues then <https://re-act.org.uk/tech-support|submit a support ticket> :mechanical-arm:"
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "submitTicket",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Here is a link to <https://re-act.org.uk/tech-support|submit a support ticket> :fist:"
+      }
+    }
+  ]

@@ -1,0 +1,52 @@
+{
+    "text": "Hello! What do you need help with?",
+    "fallback": "Upgrade your Slack client to use messages like these.",
+    "color": "#3AA3E3",
+    "attachment_type": "default",
+    "callback_id": "subjects",
+    "actions": [
+      {
+        "name": "subject_list",
+        "text": "Select one",
+        "type": "select",
+        "options": [
+          {
+            "text": "Slack",
+            "value": "Slack"
+          },
+          {
+            "text": "Box",
+            "value": "Box"
+          },          
+          {
+            "text": "Asana",
+            "value": "Asana"
+          },
+          {
+            "text": "Salesforce",
+            "value": "Salesforce"
+          },
+          {
+            "text": "GSuite",
+            "value": "GSuite"
+          },
+          {
+            "text": "Portal",
+            "value": "Portal"
+          },
+          {
+            "text": "Everbridge",
+            "value": "Everbridge"
+          },
+          {
+            "text": "Hardware",
+            "value": "Hardware"
+          },
+          {
+            "text": "Submit a support ticket",
+            "value": "Submit a support ticket"
+          }
+        ]
+      }
+    ]
+  }

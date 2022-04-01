@@ -1,0 +1,50 @@
+[
+    {
+      "type": "section",
+      "callback_id": "addToChannel",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Here is a link to Slack Help Centre - <https://slack.com/intl/en-gb/help/articles/201980108-Add-people-to-a-channel|Add people to a channel> :slack:"
+      }   
+    },
+    {
+      "type": "section",
+      "callback_id": "oldMessageThread",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Here is a link to Slack Help Centre - <https://slack.com/intl/en-gb/help/articles/202528808-Search-in-Slack|Search in Slack> :fist:"
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "cameraBroken",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Try pressing F6, or Fn + F6. If this doesn't work see <https://www.technipages.com/fix-slack-could-not-find-camera-and-microphone|this helpful page> :slack:"
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "audioBroken",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Here is a link to <https://www.technipages.com/fix-slack-could-not-find-camera-and-microphone|a helpful troubleshooting page> :slack:"
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "addWorkspace",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Here is a link to Slack Help Centre - <https://slack.com/intl/en-gb/help/articles/212675257-Join-a-Slack-workspace|Join a workspace> :slack: \n\n *Try these steps to add a new workspace to your existing Slack app* \n\n 1. Open your Slack App [mobile or desktop]\n 2. Towards the top left of the screen you will see either a + [desktop] or the logo of your current workspace [mobile]. Press/click on that.\n 3. You will see an option to Add Workspaces [desktop] or Add a workspace [mobile]\n 4. Follow the instructions"
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "submitTicket",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Here is a link to <https://re-act.org.uk/tech-support|submit a support ticket> :fist:"
+      }
+    }
+  ]

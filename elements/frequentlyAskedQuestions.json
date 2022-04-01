@@ -1,0 +1,290 @@
+[
+  {
+    "fallback": "Upgrade your Slack client to use messages like these.",
+    "color": "#3AA3E3",
+    "attachment_type": "default",
+    "callback_id" : "slack_help",
+    "actions": [
+        {
+          "name": "subject_list",
+          "text": "Select one",          
+          "type": "select",
+          "options": [
+            {
+              "text": "Add somebody to a channel",
+              "value": "addToChannel"
+            },
+            {
+              "text": "Find an old message",
+              "value": "oldMessageThread"
+            },
+            {
+              "text": "Fix my camera",
+              "value": "cameraBroken"
+            },
+            {
+              "text": "Fix my audio",
+              "value": "audioBroken"
+            },
+            {
+              "text": "Add a new workspace",
+              "value": "addWorkspace"
+            },
+            {
+              "text": "Submit a support ticket",
+              "value": "submitTicket"
+            }
+          ]
+        }
+      ]
+  },
+  {
+    "fallback": "Upgrade your Slack client to use messages like these.",
+    "color": "#3AA3E3",
+    "attachment_type": "default",
+    "callback_id" : "box_help",
+    "actions": [
+        {
+          "name": "subject_list",
+          "text": "Select one",          
+          "type": "select",
+          "options": [
+            {
+              "text": "Fix Box Tools",
+              "value": "boxTools"
+            },
+            {
+              "text": "Unable to open a file from Box",
+              "value": "microsoftOnline"
+            },
+            {
+              "text": "Find a file or folder",
+              "value": "findFile"
+            },
+            {
+              "text": "Edit a file that has been shared with me",
+              "value": "editFile"
+            },
+            {
+              "text": "Merge my Box accounts",
+              "value": "accountMerge"
+            },
+            {
+              "text": "Submit a support ticket",
+              "value": "submitTicket"
+            }
+          ]
+        }
+      ]
+  },
+  {
+    "fallback": "Upgrade your Slack client to use messages like these.",
+    "color": "#3AA3E3",
+    "attachment_type": "default",
+    "callback_id" : "asana_help",
+    "actions": [
+        {
+          "name": "subject_list",
+          "text": "(Asana) Select one",
+          "type": "select",
+          "options": [
+            {
+              "text": "Find a project or task?",
+              "value": "findTask"
+            },
+            {
+              "text": "Find my assigned tasks",
+              "value": "myTasks"
+            },
+            {
+              "text": "Find out who assigned me a task",
+              "value": "findAssigner"
+            },
+            {
+              "text": "Create a milestone",
+              "value": "createMilestone"
+            },
+            {
+              "text": "Create a new project",
+              "value": "createProject"
+            },
+            {
+              "text": "Get alerted in Slack about Asana activity",
+              "value": "appAsana"
+            },
+            {
+              "text": "Submit a support ticket",
+              "value": "submitTicket"
+            }
+          ]
+        }
+      ]
+  },
+  {
+    "fallback": "Upgrade your Slack client to use messages like these.",
+    "color": "#3AA3E3",
+    "attachment_type": "default",
+    "callback_id" : "salesforce_help",
+    "actions": [
+        {
+          "name": "subject_list",
+          "text": "Select one",
+          "type": "select",
+          "options": [
+            {
+              "text": "Create a report",
+              "value": "createReport"
+            },
+            {
+              "text": "Create a list view",
+              "value": "createListView"
+            },
+            {
+              "text": "Edit data in bulk",
+              "value": "editBulk"
+            },
+            {
+              "text": "Find a contact",
+              "value": "findContact"
+            },
+            {
+              "text": "I can't log in",
+              "value": "logIn"
+            },
+            {
+              "text": "Export data from a report",
+              "value": "exportReport"
+            },
+            {
+              "text": "Submit a support ticket",
+              "value": "submitTicket"
+            }
+          ]
+        }
+      ]
+  },
+  {
+    "fallback": "Upgrade your Slack client to use messages like these.",
+    "color": "#3AA3E3",
+    "attachment_type": "default",
+    "callback_id" : "gsuite_help",
+    "actions": [
+        {
+          "name": "subject_list",
+          "text": "Select one",
+          "type": "select",
+          "options": [
+            {
+              "text": "Unlock my account",
+              "value": "lockedAccount"
+            },
+            {
+              "text": "Change Google group notification settings",
+              "value": "groupNotifications"
+            },
+            {
+              "text": "Find a Google Group inbox",
+              "value": "groupInbox"
+            },
+            {
+              "text": "Setup my email signature",
+              "value": "emailSignature"
+            },
+            {
+              "text": "Submit a support ticket",
+              "value": "submitTicket"
+            }
+          ]
+        }
+      ]
+  },
+  {
+    "fallback": "Upgrade your Slack client to use messages like these.",
+    "color": "#3AA3E3",
+    "attachment_type": "default",
+    "callback_id" : "portal_help",
+    "actions": [
+        {
+          "name": "subject_list",
+          "text": "Select one",
+          "type": "select",
+          "options": [
+            {
+              "text": "Log into my account",
+              "value": "loginAccount"
+            },
+            {
+              "text": "Fix error completing online course",
+              "value": "onlineCourse"
+            },
+            {
+              "text": "Submit a support ticket",
+              "value": "submitTicket"
+            }
+          ]
+        }
+      ]
+  },
+  {
+    "fallback": "Upgrade your Slack client to use messages like these.",
+    "color": "#3AA3E3",
+    "attachment_type": "default",
+    "callback_id" : "everbridge_help",
+    "actions": [
+        {
+          "name": "subject_list",
+          "text": "Select one",
+          "type": "select",
+          "options": [
+            {
+              "text": "Include a specific contact in filter",
+              "value": "includeContact"
+            },
+            {
+              "text": "Submit a support ticket",
+              "value": "submitTicket"
+            }
+          ]
+        }
+      ]
+  },
+  {
+    "fallback": "Upgrade your Slack client to use messages like these.",
+    "color": "#3AA3E3",
+    "attachment_type": "default",
+    "callback_id" : "hardware_help",
+    "actions": [
+        {
+          "name": "subject_list",
+          "text": "Select one",
+          "type": "select",
+          "options": [
+            {
+              "text": "Report broken, lost or stolen hardware",
+              "value": "brokenLostStolen"
+            },
+            {
+              "text": "Submit a support ticket",
+              "value": "submitTicket"
+            }
+          ]
+        }
+      ]
+  },
+  {
+    "fallback": "Upgrade your Slack client to use messages like these.",
+    "color": "#3AA3E3",
+    "attachment_type": "default",
+    "callback_id" : "submit_support_ticket",
+    "actions": [
+        {
+          "name": "Submit a Ticket",
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "Here is a link to <https://re-act.org.uk/tech-support|submit a support ticket> :fist:"
+          }
+        }
+      ]
+  }
+]

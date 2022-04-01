@@ -1,0 +1,58 @@
+[
+    {
+      "type": "section",
+      "callback_id": "createReport",
+      "text": {
+          "type": "mrkdwn",
+          "text": "1. From the *Reports* tab, click *New Report*.\n\n2. Select the report type for the report, and click *Create*.\n\n3. Customize your report, then save or run it.\n\n_Here is a useful video tutorial:_ <https://www.youtube.com/watch?v=FprCnEnz07U|How to build a report in Salesforce Lightning Experience> :salesforce:"
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "createListView",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Here is a useful video tutorial: <https://www.youtube.com/watch?v=EaWPI0LCQDM|Working with List Views> :salesforce:"
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "editBulk",
+      "text": {
+          "type": "mrkdwn",
+          "text": "You can update data in bulk in Salesforce using List Views. Here is a useful video tutorial: <https://www.youtube.com/watch?v=EaWPI0LCQDM|Working with List Views> :salesforce:"
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "findContact",
+      "text": {
+          "type": "mrkdwn",
+          "text": "You can find any contact in Salesforce by searching for either their name or their email address in the searchbar at the top of the browser window. :salesforce:"
+      }
+    },
+    {
+      "type": "section",
+      "callback_id": "logIn",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Try resetting your password using a forgotten password link. If this fails, then contact a RE:ACT Salesforce Admin :salesforce:"
+      }
+    },
+    {
+        "type": "section",
+        "callback_id": "exportReport",
+        "text": {
+            "type": "mrkdwn",
+            "text": "1. From the Reports tab, next to the report you want to export, click the down arrow, then click *Export*.\n\n2. Choose an Export View.\n\n3. Formatted Report exports the report as it appears in Salesforce, with the report header, groupings, and filter details. Because formatting is retained, you can't choose an encoding and the only supported formatted export file type is .xlsx.\n\n4. Details Only exports each detail row without formatting and is useful for doing further calculations in a spreadsheet.\n\n5. If exporting as Details Only, select Excel Format .xlsx , Excel Format .xls, or Comma Delimited .csv as the format. For .xls and .csv, select the encoding option appropriate for your language and locale.\n\n6. Click Export.\nIf prompted by a browser dialog, select a location and save the file.:salesforce:"
+        }
+    },
+    {
+      "type": "section",
+      "callback_id": "submitTicket",
+      "text": {
+          "type": "mrkdwn",
+          "text": "Here is a link to <https://re-act.org.uk/tech-support|submit a support ticket> :fist:"
+      }
+    }
+  ]
