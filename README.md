@@ -20,6 +20,13 @@ This is useful as it encourages the user to resolve their own issue, and if this
 - Heroku
 - JSON
 
+#### Future Improvements
+
+I would like to implement the following improvements:
+- Interaction message replies in Blocks instead of Attachments to allow more complex formatting of responses
+- I would like to include the ability for the user to express satisfaction (Yes/No) with final response. If "No", then a return to an earlier stage to select another option or submit a ticket option.
+- I would like to include the submit a ticket form as part of an interactive form message reply instead of an external link.
+
 ###### Useful Resources
 - See https://code.likeagirl.io/making-an-interactive-slack-app-part-1-d28fac5f996f#5f6b to setup your Slack App environment.
 - See *Deploying to Heroku* at https://code.likeagirl.io/making-an-interactive-slack-app-part-3-d550752584bf
