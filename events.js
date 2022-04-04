@@ -11,7 +11,7 @@ function listenForEvents(app) {
 
   slackEvents.on('app_mention', (event) => {
     console.log(`Received an app_mention event from user ${event.user} in channel ${event.channel}`)
-    respondToEvent(event.channel)
+    respondToEvent(event.channel, event.ts)
   })
 
   // All errors in listeners are caught here. If this weren't caught, the program would terminate.
@@ -20,10 +20,11 @@ function listenForEvents(app) {
   })
 }
 
-async function respondToEvent(channelId) {
+async function respondToEvent(channelId, threadTs) {
   try {
     await web.chat.postMessage({
       channel: channelId,
+      thread_ts: threadTs,
       text: '',
       attachments: [subjects]
     })
