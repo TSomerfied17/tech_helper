@@ -74,8 +74,8 @@ function respondToSelectDropdown(payload, respond) {
       case 'Submit a support ticket':
         text = 'You selected Submit a support ticket.'
         
-        choice = 5
-        respondToFaqs.chooseAnswer(text, callbackId, respond, choice)
+        choice = 8
+        respondWithFaq(text, callbackId, respond, choice)
         break
     }
   }
